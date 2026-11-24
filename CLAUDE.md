@@ -28,6 +28,9 @@ Les deux parties sont en C#/.NET : le client Android est une application .NET MA
 - Principe de Clean Architecture (les projets .NET doivent respecter la séparation Domain / Application / Infrastructure / Interface, les dépendances pointant vers le centre).
 - Principes SOLID.
 - Tout doit être testé unitairement, développé avec le principe TDD (tests écrits avant l'implémentation).
+- Tous les tests doivnent être situés dans une projet de tests séparé, avec un nom se terminant par `.Tests` (exemple : `Serveur.Tests`).
+- Tous les projets doivent compiler avcec `dotnet build` et tous les tests doivent passer avec `dotnet test` avant de considérer une tâche comme terminée.
+- Tous les avertissements du compilateur doivent être corrigés avant de considérer une tâche comme terminée.
 
 ## Notes
 

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Serveur.Api/Serveur.Api.csproj" Type="fae03423-3ef1-11d3-bf3a-bf9faad2de95" />
+  <Project Path="Serveur.Application/Serveur.Application.csproj" Type="fae03423-3ef1-11d3-bf3a-bf9faad2de95" />
+  <Project Path="Serveur.Domain/Serveur.Domain.csproj" Type="fae03423-3ef1-11d3-bf3a-bf9faad2de95" />
+  <Project Path="Serveur.Tests/Serveur.Tests.csproj" Type="fae03423-3ef1-11d3-bf3a-bf9faad2de95" />
+</Solution>
