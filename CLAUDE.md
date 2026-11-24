@@ -8,7 +8,7 @@ Ce projet contient deux parties :
 - Un API web REST destiné à rouler sur un serveur Linux, qui émet les alarmes en temps réel aux clients connectés via Server-Sent Events (SSE). Principe : « connecté = destinataire » — pas d'inscription, pas de persistance, pas de reprise des alarmes manquées.
 - Un client Android, développé avec .NET MAUI en C#, qui ouvre un flux SSE pour recevoir les alarmes et qui transmet une alarme à partir d'un client vers tous les autres clients connectés au clic d'un bouton.
 
-Le périmètre est limité au réseau local et au temps réel pur ; le backlog détaillé du serveur est dans `docs/stories-serveur.md`.
+Le périmètre est limité au réseau local et au temps réel pur ; le backlog détaillé du serveur est dans `docs/stories-serveur.md` et le backlog détaillé du client Android est dans `docs/stories-client-android.md`. 
 
 ## État actuel du dépôt
 
